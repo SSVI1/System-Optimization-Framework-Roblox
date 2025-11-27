@@ -39,7 +39,6 @@ Before executing the software, ensure your system meets these requirements:
 
 1.  **Administrative Privileges:** The tool modifies sensitive Registry keys and requires **"Run as Administrator"** to function.
 2.  **Antivirus Exclusion:**
-    * *Notice:* This application is protected with **ConfuserEx** to prevent reverse engineering.
     * **Result:** Windows Defender and other AVs may flag this as a "False Positive" (often labeled as `Obfuscat` or `Generic`). **You must add an exclusion or allow the file to run.**
 3.  **VPN Requirement (Mandatory):**
     * This tool sanitizes your **Hardware ID**.
