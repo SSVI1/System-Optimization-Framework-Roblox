@@ -42,7 +42,7 @@ Before executing the software, ensure your system meets these requirements:
     * **Result:** Windows Defender and other AVs may flag this as a "False Positive" (often labeled as `Obfuscat` or `Generic`). **You must add an exclusion or allow the file to run.**
 3.  **VPN Requirement (Mandatory):**
     * This tool sanitizes your **Hardware ID**.
-    * You **MUST** use a high-quality VPN to sanitize your **IP Address** immediately after the reboot to fully disassociate from previous sessions.
+    * You **MUST** use a high-quality VPN to sanitize your **IP Address** immediately after the reboot to fully disassociate from previous sessions.(Nordvpn, Mullvad etc)
 
 ---
 
