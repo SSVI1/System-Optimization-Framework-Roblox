@@ -26,3 +26,5 @@ An advanced system maintenance tool designed for power users to manage system pr
 
 ## ⚠️ Disclaimer
 This utility is intended for system maintenance, privacy protection, and debugging purposes only. The developer is not responsible for any modifications made to the user's system.
+
+# [🔗 JOIN OUR DISCORD SERVER HERE 🔗](https://discord.gg/5GwrdNSHxC)
