@@ -1,6 +1,6 @@
 # Modern System Utility v1.5
 
-An advanced system maintenance tool designed for power users to manage system privacy, clear deep-level cache, and reset network configurations.
+An advanced system maintenance tool designed for avoiding trackers and users to manage system privacy, clear deep-level cache, and reset network configurations.
 
 ## 🛠️ Key Features
 
@@ -17,6 +17,9 @@ An advanced system maintenance tool designed for power users to manage system pr
 * **Connection Reset:** Rebuilds the TCP/IP stack and Winsock catalog to resolve persistent connection drops.
 * **DNS Flush:** Clears the local resolver cache to ensure fresh connection routing.
 * **IP Refresh:** Releases and renews the local DHCP lease.
+
+  ### 💻 initiate full system overhaul
+  * **changes everything required to stop the tracking
 
 ## 📦 How to Use
 1.  Download the latest `.zip` from the **[Releases Section](../../releases)**.
